@@ -1,0 +1,98 @@
+body{
+    background-color: lightgrey;
+}
+
+.menu{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+a:link{
+    color: black;
+    text-decoration: none; 
+}
+
+a:after{
+    color: black;
+}
+
+#home:hover,
+#about:hover,
+#contact:hover{
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+}
+
+.line{
+    width: 90vw;
+    height: auto;
+    border-bottom: 1px solid black;
+    position: absolute;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    }
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+
+     color: hotpink;
+}
+
+.week{
+    margin-left: 3vw;
+}
+
+.reading{
+    position: absolute;
+    width:90vw;
+    height: auto;
+
+    margin-left: 5vw;
+    margin-right: 7vw;
+}
+
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: darkslateblue;
+}
+
+#title:hover{
+   font-style: italic;
+}
+
+.quote{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    font-style: italic;
+
+    z-index: 0;
+    margin-left: 3vw;
+    margin-right: 10vw;
+}
+
+.hhover:hover{
+    font-style: italic;
+}

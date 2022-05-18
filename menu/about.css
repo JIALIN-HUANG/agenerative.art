@@ -1,0 +1,81 @@
+  .container {
+    display: inline-block;
+    margin-left: 25vw;
+    margin-top: 31vh;
+  }
+
+  @keyframes typing {
+    0% { width: 0 }
+    50% { width: 100% }
+    80% {width: 0 }
+    100% {width: 0}
+  }
+
+
+  @keyframes typing2 {
+    0% { width: 0 }
+    30%{width: 0}
+    55% { width: 100% }
+    100% {width: 0%}
+  }
+
+.typed-out{
+    font-family: ProggyDotted;
+    font-size: 1.5rem;
+
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  /* width: 0; */
+  animation: 
+  typing 5s steps(20, end) forwards infinite,
+  blinking 1.2s infinite;
+  background: white;
+}
+
+@keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: balck; }
+  }
+
+  .typed-out2{
+    font-family: ProggyDotted;
+    font-size: 1.5rem;
+    margin-top: 17vh;
+    margin-left: 58vw;
+
+
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  /* width: 0; */
+  animation: 
+  typing2 15s steps(50, end) forwards infinite,
+  blinking 1.2s infinite;
+  background: white;
+  }
+
+  .background-white{
+    position: fixed;
+
+    width: 40vw;
+    height: 45vh;
+    top: 50%;
+    left: 10%;
+
+    background-color: black;
+  }
+
+  .words{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    color: white;
+    font-family: ProggyDotted;
+    font-size: 1rem;
+    text-align: 1.5;
+  }

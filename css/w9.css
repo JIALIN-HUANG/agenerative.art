@@ -1,0 +1,23 @@
+.p5js{
+    margin-left: 5vw;
+}
+
+.img8{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 40vw;
+}
+
+.demo{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+
+    font-size: 3rem
+}
+
+.two{
+    margin-left: 5vw;
+    margin-top: 5vh;
+    font-size: 3rem
+}

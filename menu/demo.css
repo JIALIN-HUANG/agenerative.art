@@ -1,0 +1,16 @@
+.stepByStep{
+    font-family: ProggyDotted;
+    font-size: 1.2rem;
+    line-height: 2;
+    font-style: bold;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five{
+    margin-left: 9vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Megrim&display=swap');
+.table,
+.table2,
+.table3{
+    padding: 20vh;
+    width: 30vw;
+    text-align: center;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.img1{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    left: 50%;
+    top: 30vh;
+}
+
+.img2{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    left: 50%;
+    top: 110vh;
+}
+
+.img3{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    left: 50%;
+    top: 190vh;
+}
+
+.img4{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
+
+.img5{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    top:30vh;
+
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
+
+.img6{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    top:30vh;
+    left: 40vw;
+
+    padding-bottom: 5vh;
+}
+
+.here{
+    position: absolute;
+    top: 55vh;
+    width: 30vw;
+
+    margin-left: 5vw;
+}
+
+.img7{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    top:250vh;
+    left: 40vw;
+
+    padding-bottom: 5vh;
+}
+
+.here2{
+    position: absolute;
+    width: 30vw;
+
+    margin-left: 5vw;
+}
